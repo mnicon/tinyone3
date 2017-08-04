@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+
+}
+ul{
+	margin: 0;
+	list-style: none;
+
+}
+a{
+	color: black;
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.pull_left{       
+	float: left;
+}
+/*pull_left and pull_right agei kore rakhlam jehetu logo left & menu right & also text & Image left right e jabe pore tai, eki id (pull_left or right
+css theke use korlam left right er jonno,  */
+.pull_right{
+	float: right;
+}
+
+.header_section {
+	background: #fcdb00;
+}
+
+.header_content {
+	width: 70%; 
+	margin: 0 auto;
+    /*jokhon width use korbo thokhon margin:0 auto dite hobe , tahole 2 side theke jayga charbe or center e asbe, 
+    tobe 2 time or shob shomoy na mone hoy ?*/
+    /*border: 2px solid black; ( border er kaj shes tai tuila fellam,and border ta Navigation_bar e dibo kaj korarjonno) */
+    padding: 20px 0;
+    /*padding shudhu upor theke nilam kintu 0 dewar mane hoylo Left or Right theke nobo na*/
+}
+
+.navigation_bar {
+	/*jehetu float use korechi shehetu overflow hiden use korte hobe, hight ta fire pabar jonno, eki 
+	shathe amra slider section e o diee rakhbo*/
+    overflow: hidden;
+	/*border: 2px solid black;*/
+
+}
+
+.logo {
+	width: 50%;
+	/*border: 2px solid red;*/
+	box-sizing: border-box;
+	overflow: hidden; 
+
+/*logo & menu pasha pashi rakhar jonno jayga vag kore dilam 50% kore jayga nilam aivebe text & image ke o korte hobe*/
+/*Logo hoche Img & Text (span) er parent kta div er modde , tai age parent er jayga ore nilam er por child der
+jayga kore nite hobe width diee tobe parent er bodde border kore kaj korte hobe, er por ekhan theke abar logo & 
+text ke left right e place korte hobe*/
+}
+
+.logo_left{
+	width: 10%;
+	/*border: 2px solid green;*/
+	box-sizing: border-box;
+	float: left;
+}
+.logo_right{
+	width: 90%;
+	/*border: 2px solid green;*/
+	box-sizing: border-box;
+	float: right;
+	margin-top: 10px;
+
+/*logo & text ta jate kacha kachi hiy tai logo left tar width 10% & logo right ta 90% */
+
+}
+.menu {
+	width: 50%;
+	    
+}
+.menu ul li{
+	    font-weight: bold;
+    font-family: sans-serif;
+    display: inline-block;
+   padding: 15px;
+   /*padding nilam menu gulo faka faka or jayga charar jonno*/
+   /*site e gie carsor e right side  e click korle "examiner l'élément" e giee tik kore nite pari check kore  */
+
+}
+
+.slider_section {
+	/*border: 2px solid green;*/
+	overflow: hidden;
+	padding: 30px;
+	/*vitor theke jayga newar jonno padding korlam*/
+    position: relative;
+}
+
+.slider_text {
+	width: 50%;
+	/*border: 2px solid red;*/
+	box-sizing: border-box;
+	padding top: 20px;
+	padding-right:20px;
+	font-family: sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.slider_text h1, h4, p{
+	margin: 10px 0;
+}
+/*text & image pasha pashi rakhar jonno jayga vag kore dilam 50% kore*/
+.slider_image {
+	width: 50%;
+}
+.platform_icon{
+	padding: 20px;
+}
+.platform_icon i{
+	padding: 10px;
+}
